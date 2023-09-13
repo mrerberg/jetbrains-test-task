@@ -1,0 +1,17 @@
+.container {
+  /* padding: 8px 22px; */
+  transition: background-color 0.15s;
+
+  &.open {
+    background-color: #f4f4f4;
+  }
+
+  &.backlight {
+    /* e8e8e8 */
+    background-color: #e8e8e8;
+  }
+}
+
+.innerList {
+  /* margin-left: 16px; */
+}

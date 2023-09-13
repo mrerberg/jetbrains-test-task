@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 16px;
+}

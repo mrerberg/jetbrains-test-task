@@ -1,0 +1,8 @@
+.container {
+  overflow-y: scroll;
+  height: 100vh;
+  border-right: 1px solid rgba(25, 25, 28, 0.2);
+  width: 284px;
+  max-width: 284px;
+  padding-top: 24px;
+}

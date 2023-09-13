@@ -1,0 +1,808 @@
+{
+  "entities": {
+    "pages": {
+      "Getting_started": {
+        "id": "Getting_started",
+        "title": "Getting started",
+        "url": "getting-started.html",
+        "parentId": "ij",
+        "level": 0,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Accessibility",
+          "Discover_IntelliJ_IDEA",
+          "Installation_guide",
+          "Creating_and_Running_Your_First_Java_Application",
+          "Feature_trainer",
+          "Managing_Plugins",
+          "Working_Offline",
+          "Migrating_from_Eclipse_to_IntelliJ_IDEA",
+          "NetBeans",
+          "product__educational_tools"
+        ]
+      },
+      "Accessibility": {
+        "id": "Accessibility",
+        "title": "Accessibility",
+        "url": "accessibility.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Discover_IntelliJ_IDEA": {
+        "id": "Discover_IntelliJ_IDEA",
+        "title": "IntelliJ IDEA overview",
+        "url": "discover-intellij-idea.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Guided_Tour_Around_the_User_Interface",
+          "Pro_Tips",
+          "Getting_Help"
+        ]
+      },
+      "Guided_Tour_Around_the_User_Interface": {
+        "id": "Guided_Tour_Around_the_User_Interface",
+        "title": "User interface",
+        "url": "guided-tour-around-the-user-interface.html",
+        "parentId": "Discover_IntelliJ_IDEA",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Pro_Tips": {
+        "id": "Pro_Tips",
+        "title": "Pro tips",
+        "url": "pro-tips.html",
+        "parentId": "Discover_IntelliJ_IDEA",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Getting_Help": {
+        "id": "Getting_Help",
+        "title": "Support and assistance",
+        "url": "getting-help.html",
+        "parentId": "Discover_IntelliJ_IDEA",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Installation_guide": {
+        "id": "Installation_guide",
+        "title": "Installation guide",
+        "url": "installation-guide.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Run_for_the_first_time",
+          "Register",
+          "Update",
+          "Uninstall"
+        ]
+      },
+      "Run_for_the_first_time": {
+        "id": "Run_for_the_first_time",
+        "title": "Run IntelliJ IDEA for the first time",
+        "url": "run-for-the-first-time.html",
+        "parentId": "Installation_guide",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Register": {
+        "id": "Register",
+        "title": "Register",
+        "url": "register.html",
+        "parentId": "Installation_guide",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Update": {
+        "id": "Update",
+        "title": "Update",
+        "url": "update.html",
+        "parentId": "Installation_guide",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Uninstall": {
+        "id": "Uninstall",
+        "title": "Uninstall",
+        "url": "uninstall.html",
+        "parentId": "Installation_guide",
+        "level": 2,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Creating_and_Running_Your_First_Java_Application": {
+        "id": "Creating_and_Running_Your_First_Java_Application",
+        "title": "Create your first Java application",
+        "url": "creating-and-running-your-first-java-application.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Feature_trainer": {
+        "id": "Feature_trainer",
+        "title": "Learn IDE features",
+        "url": "feature-trainer.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true
+      },
+      "Managing_Plugins": {
+        "id": "Managing_Plugins",
+        "title": "Install plugins",
+        "url": "managing-plugins.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 5,
+        "doNotShowWarningLink": true
+      },
+      "Working_Offline": {
+        "id": "Working_Offline",
+        "title": "Work offline",
+        "url": "working-offline.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 6,
+        "doNotShowWarningLink": true
+      },
+      "Migrating_from_Eclipse_to_IntelliJ_IDEA": {
+        "id": "Migrating_from_Eclipse_to_IntelliJ_IDEA",
+        "title": "Migrate from Eclipse",
+        "url": "migrating-from-eclipse-to-intellij-idea.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 7,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Import_Project_from_Eclipse._Page_1",
+          "Exporting_an_IntelliJ_IDEA_Project_to_Eclipse"
+        ]
+      },
+      "Import_Project_from_Eclipse._Page_1": {
+        "id": "Import_Project_from_Eclipse._Page_1",
+        "title": "Import a project from Eclipse",
+        "url": "import-project-from-eclipse-page-1.html",
+        "parentId": "Migrating_from_Eclipse_to_IntelliJ_IDEA",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Exporting_an_IntelliJ_IDEA_Project_to_Eclipse": {
+        "id": "Exporting_an_IntelliJ_IDEA_Project_to_Eclipse",
+        "title": "Export an IntelliJ IDEA project to Eclipse",
+        "url": "exporting-an-intellij-idea-project-to-eclipse.html",
+        "parentId": "Migrating_from_Eclipse_to_IntelliJ_IDEA",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "NetBeans": {
+        "id": "NetBeans",
+        "title": "Migrate from NetBeans",
+        "url": "netbeans.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 8,
+        "doNotShowWarningLink": true
+      },
+      "product__educational_tools": {
+        "id": "product__educational_tools",
+        "title": "IntelliJ IDEA for Education",
+        "url": "product-educational-tools.html",
+        "parentId": "Getting_started",
+        "level": 1,
+        "tabIndex": 9,
+        "doNotShowWarningLink": true
+      },
+      "Configuring_Project_and_IDE_Settings": {
+        "id": "Configuring_Project_and_IDE_Settings",
+        "title": "IDE configuration",
+        "url": "configuring-project-and-ide-settings.html",
+        "parentId": "ij",
+        "level": 0,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "4d0bfef4",
+          "Configuring_Colors_and_Fonts",
+          "mastering_keyboard_shortcuts",
+          "Notifications",
+          "Absolute_Path_Variables",
+          "Sharing_Your_IDE_Settings",
+          "Tuning_the_IDE"
+        ]
+      },
+      "4d0bfef4": {
+        "id": "4d0bfef4",
+        "title": "IDE appearance",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 0,
+        "pages": [
+          "New_UI",
+          "Tool_Windows",
+          "Customize_actions__menus__and_toolbars",
+          "User_interface_themes",
+          "IDE_Viewing_Modes",
+          "Setting_Background_Image",
+          "Touch_Bar_Support",
+          "Linux_native_menu"
+        ]
+      },
+      "New_UI": {
+        "id": "New_UI",
+        "title": "New UI",
+        "url": "new-ui.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Tool_Windows": {
+        "id": "Tool_Windows",
+        "title": "Tool windows",
+        "url": "tool-windows.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Manipulating_the_Tool_Windows",
+          "Viewing_Modes",
+          "Tool_window_layouts",
+          "Speed_Search_in_the_Tool_Windows"
+        ]
+      },
+      "Manipulating_the_Tool_Windows": {
+        "id": "Manipulating_the_Tool_Windows",
+        "title": "Arrange tool windows",
+        "url": "manipulating-the-tool-windows.html",
+        "parentId": "Tool_Windows",
+        "level": 3,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Viewing_Modes": {
+        "id": "Viewing_Modes",
+        "title": "Tool window view modes",
+        "url": "viewing-modes.html",
+        "parentId": "Tool_Windows",
+        "level": 3,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Tool_window_layouts": {
+        "id": "Tool_window_layouts",
+        "title": "Layouts",
+        "url": "tool-window-layouts.html",
+        "parentId": "Tool_Windows",
+        "level": 3,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Speed_Search_in_the_Tool_Windows": {
+        "id": "Speed_Search_in_the_Tool_Windows",
+        "title": "Speed search in tool windows",
+        "url": "speed-search-in-the-tool-windows.html",
+        "parentId": "Tool_Windows",
+        "level": 3,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Customize_actions__menus__and_toolbars": {
+        "id": "Customize_actions__menus__and_toolbars",
+        "title": "Menus and toolbars",
+        "url": "customize-actions-menus-and-toolbars.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "User_interface_themes": {
+        "id": "User_interface_themes",
+        "title": "User interface themes",
+        "url": "user-interface-themes.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "IDE_Viewing_Modes": {
+        "id": "IDE_Viewing_Modes",
+        "title": "IDE viewing modes",
+        "url": "ide-viewing-modes.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true
+      },
+      "Setting_Background_Image": {
+        "id": "Setting_Background_Image",
+        "title": "Background image",
+        "url": "setting-background-image.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 5,
+        "doNotShowWarningLink": true
+      },
+      "Touch_Bar_Support": {
+        "id": "Touch_Bar_Support",
+        "title": "Touch bar support",
+        "url": "touch-bar-support.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 6,
+        "doNotShowWarningLink": true
+      },
+      "Linux_native_menu": {
+        "id": "Linux_native_menu",
+        "title": "Linux native menu",
+        "url": "linux-native-menu.html",
+        "parentId": "4d0bfef4",
+        "level": 2,
+        "tabIndex": 7,
+        "doNotShowWarningLink": true
+      },
+      "Configuring_Colors_and_Fonts": {
+        "id": "Configuring_Colors_and_Fonts",
+        "title": "Colors and fonts",
+        "url": "configuring-colors-and-fonts.html",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "mastering_keyboard_shortcuts": {
+        "id": "mastering_keyboard_shortcuts",
+        "title": "Keyboard shortcuts",
+        "url": "mastering-keyboard-shortcuts.html",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Configuring_Keyboard_and_Mouse_Shortcuts",
+          "Reference_Keymap_Win_Default",
+          "Reference_Keymap_Mac_Default",
+          "Keyboard_Shortcuts_Troubleshooting"
+        ]
+      },
+      "Configuring_Keyboard_and_Mouse_Shortcuts": {
+        "id": "Configuring_Keyboard_and_Mouse_Shortcuts",
+        "title": "Configure keyboard shortcuts",
+        "url": "configuring-keyboard-and-mouse-shortcuts.html",
+        "parentId": "mastering_keyboard_shortcuts",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Reference_Keymap_Win_Default": {
+        "id": "Reference_Keymap_Win_Default",
+        "title": "Predefined Windows keymap",
+        "url": "reference-keymap-win-default.html",
+        "parentId": "mastering_keyboard_shortcuts",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Reference_Keymap_Mac_Default": {
+        "id": "Reference_Keymap_Mac_Default",
+        "title": "Predefined macOS keymap",
+        "url": "reference-keymap-mac-default.html",
+        "parentId": "mastering_keyboard_shortcuts",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Keyboard_Shortcuts_Troubleshooting": {
+        "id": "Keyboard_Shortcuts_Troubleshooting",
+        "title": "Troubleshooting",
+        "url": "keyboard-shortcuts-troubleshooting.html",
+        "parentId": "mastering_keyboard_shortcuts",
+        "level": 2,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Notifications": {
+        "id": "Notifications",
+        "title": "Notifications",
+        "url": "notifications.html",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Absolute_Path_Variables": {
+        "id": "Absolute_Path_Variables",
+        "title": "Path variables",
+        "url": "absolute-path-variables.html",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true
+      },
+      "Sharing_Your_IDE_Settings": {
+        "id": "Sharing_Your_IDE_Settings",
+        "title": "Share IDE settings",
+        "url": "sharing-your-ide-settings.html",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 5,
+        "doNotShowWarningLink": true
+      },
+      "Tuning_the_IDE": {
+        "id": "Tuning_the_IDE",
+        "title": "Advanced configuration",
+        "url": "tuning-the-ide.html",
+        "parentId": "Configuring_Project_and_IDE_Settings",
+        "level": 1,
+        "tabIndex": 6,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Directories_Used_by_the_IDE_to_Store_Settings_Caches_Plugins_and_Logs",
+          "Switching_Boot_JDK",
+          "Increasing_Memory_Heap",
+          "Activity_monitor",
+          "SSL_certificates"
+        ]
+      },
+      "Directories_Used_by_the_IDE_to_Store_Settings_Caches_Plugins_and_Logs": {
+        "id": "Directories_Used_by_the_IDE_to_Store_Settings_Caches_Plugins_and_Logs",
+        "title": "Directories used by the IDE",
+        "url": "directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html",
+        "parentId": "Tuning_the_IDE",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Switching_Boot_JDK": {
+        "id": "Switching_Boot_JDK",
+        "title": "Change boot runtime",
+        "url": "switching-boot-jdk.html",
+        "parentId": "Tuning_the_IDE",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Increasing_Memory_Heap": {
+        "id": "Increasing_Memory_Heap",
+        "title": "Increase memory heap",
+        "url": "increasing-memory-heap.html",
+        "parentId": "Tuning_the_IDE",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Activity_monitor": {
+        "id": "Activity_monitor",
+        "title": "Monitor IDE performance",
+        "url": "activity-monitor.html",
+        "parentId": "Tuning_the_IDE",
+        "level": 2,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "SSL_certificates": {
+        "id": "SSL_certificates",
+        "title": "Trusted root certificates",
+        "url": "ssl-certificates.html",
+        "parentId": "Tuning_the_IDE",
+        "level": 2,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true
+      },
+      "Working_with_projects": {
+        "id": "Working_with_projects",
+        "title": "Project configuration",
+        "url": "working-with-projects.html",
+        "parentId": "ij",
+        "level": 0,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Project_security",
+          "Creating_and_Managing_Projects",
+          "Indexing",
+          "Creating_and_Managing_Modules",
+          "SDK",
+          "Library",
+          "Configuring_Scopes_and_File_Colors",
+          "Invalidate_caches",
+          "Repair_IDE",
+          "Resource_Files"
+        ]
+      },
+      "Project_security": {
+        "id": "Project_security",
+        "title": "Project security",
+        "url": "project-security.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Creating_and_Managing_Projects": {
+        "id": "Creating_and_Managing_Projects",
+        "title": "Projects",
+        "url": "creating-and-managing-projects.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "New_Project_Wizard",
+          "Import_Project_or_Module_Wizard",
+          "Open__close__and_move_projects",
+          "Add_items_to_project",
+          "Configure_project_settings",
+          "Project_settings_and_structure",
+          "Saving_Project_as_Template",
+          "Project_Tool_Window"
+        ]
+      },
+      "New_Project_Wizard": {
+        "id": "New_Project_Wizard",
+        "title": "Create a new project",
+        "url": "new-project-wizard.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Import_Project_or_Module_Wizard": {
+        "id": "Import_Project_or_Module_Wizard",
+        "title": "Import and export projects",
+        "url": "import-project-or-module-wizard.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Open__close__and_move_projects": {
+        "id": "Open__close__and_move_projects",
+        "title": "Open, close, and move projects",
+        "url": "open-close-and-move-projects.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Add_items_to_project": {
+        "id": "Add_items_to_project",
+        "title": "Add items to your project",
+        "url": "add-items-to-project.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Configure_project_settings": {
+        "id": "Configure_project_settings",
+        "title": "Project settings",
+        "url": "configure-project-settings.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true
+      },
+      "Project_settings_and_structure": {
+        "id": "Project_settings_and_structure",
+        "title": "Project structure settings",
+        "url": "project-settings-and-structure.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 5,
+        "doNotShowWarningLink": true
+      },
+      "Saving_Project_as_Template": {
+        "id": "Saving_Project_as_Template",
+        "title": "Save projects as templates",
+        "url": "saving-project-as-template.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 6,
+        "doNotShowWarningLink": true
+      },
+      "Project_Tool_Window": {
+        "id": "Project_Tool_Window",
+        "title": "Project tool window",
+        "url": "project-tool-window.html",
+        "parentId": "Creating_and_Managing_Projects",
+        "level": 2,
+        "tabIndex": 7,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "File_Nesting_Dialog"
+        ]
+      },
+      "File_Nesting_Dialog": {
+        "id": "File_Nesting_Dialog",
+        "title": "File nesting rules",
+        "url": "file-nesting-dialog.html",
+        "parentId": "Project_Tool_Window",
+        "level": 3,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Indexing": {
+        "id": "Indexing",
+        "title": "Indexing",
+        "url": "indexing.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Shared_indexes"
+        ]
+      },
+      "Shared_indexes": {
+        "id": "Shared_indexes",
+        "title": "Shared indexes",
+        "url": "shared-indexes.html",
+        "parentId": "Indexing",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Creating_and_Managing_Modules": {
+        "id": "Creating_and_Managing_Modules",
+        "title": "Modules",
+        "url": "creating-and-managing-modules.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Configure_modules",
+          "Content_roots",
+          "Working_with_module_dependencies",
+          "Adding_support_for_frameworks_and_technologies",
+          "Unloading_Modules"
+        ]
+      },
+      "Configure_modules": {
+        "id": "Configure_modules",
+        "title": "Module structure settings",
+        "url": "configure-modules.html",
+        "parentId": "Creating_and_Managing_Modules",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Content_roots": {
+        "id": "Content_roots",
+        "title": "Content roots",
+        "url": "content-roots.html",
+        "parentId": "Creating_and_Managing_Modules",
+        "level": 2,
+        "tabIndex": 1,
+        "doNotShowWarningLink": true
+      },
+      "Working_with_module_dependencies": {
+        "id": "Working_with_module_dependencies",
+        "title": "Module dependencies",
+        "url": "working-with-module-dependencies.html",
+        "parentId": "Creating_and_Managing_Modules",
+        "level": 2,
+        "tabIndex": 2,
+        "doNotShowWarningLink": true
+      },
+      "Adding_support_for_frameworks_and_technologies": {
+        "id": "Adding_support_for_frameworks_and_technologies",
+        "title": "Add frameworks (facets)",
+        "url": "adding-support-for-frameworks-and-technologies.html",
+        "parentId": "Creating_and_Managing_Modules",
+        "level": 2,
+        "tabIndex": 3,
+        "doNotShowWarningLink": true
+      },
+      "Unloading_Modules": {
+        "id": "Unloading_Modules",
+        "title": "Unload modules",
+        "url": "unloading-modules.html",
+        "parentId": "Creating_and_Managing_Modules",
+        "level": 2,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true
+      },
+      "SDK": {
+        "id": "SDK",
+        "title": "SDKs",
+        "url": "sdk.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 4,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Supported_Java_versions"
+        ]
+      },
+      "Supported_Java_versions": {
+        "id": "Supported_Java_versions",
+        "title": "Supported Java versions and features",
+        "url": "supported-java-versions.html",
+        "parentId": "SDK",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Library": {
+        "id": "Library",
+        "title": "Libraries",
+        "url": "library.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 5,
+        "doNotShowWarningLink": true
+      },
+      "Configuring_Scopes_and_File_Colors": {
+        "id": "Configuring_Scopes_and_File_Colors",
+        "title": "Scopes and file colors",
+        "url": "configuring-scopes-and-file-colors.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 6,
+        "doNotShowWarningLink": true,
+        "pages": [
+          "Scope_Language_Syntax_Reference"
+        ]
+      },
+      "Scope_Language_Syntax_Reference": {
+        "id": "Scope_Language_Syntax_Reference",
+        "title": "Scope language syntax reference",
+        "url": "scope-language-syntax-reference.html",
+        "parentId": "Configuring_Scopes_and_File_Colors",
+        "level": 2,
+        "tabIndex": 0,
+        "doNotShowWarningLink": true
+      },
+      "Invalidate_caches": {
+        "id": "Invalidate_caches",
+        "title": "Invalidate caches",
+        "url": "invalidate-caches.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 7,
+        "doNotShowWarningLink": true
+      },
+      "Repair_IDE": {
+        "id": "Repair_IDE",
+        "title": "Repair IDE",
+        "url": "repair-ide.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 8,
+        "doNotShowWarningLink": true
+      },
+      "Resource_Files": {
+        "id": "Resource_Files",
+        "title": "Resource files",
+        "url": "resource-files.html",
+        "parentId": "Working_with_projects",
+        "level": 1,
+        "tabIndex": 9,
+        "doNotShowWarningLink": true
+      }
+    }
+  },
+  "topLevelIds": [
+    "Getting_started",
+    "Configuring_Project_and_IDE_Settings",
+    "Working_with_projects"
+  ]
+}

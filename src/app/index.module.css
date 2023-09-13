@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 104px;
+  width: 100%;
+}
+
+.wrapper {
+  padding-left: 32px;
+}
