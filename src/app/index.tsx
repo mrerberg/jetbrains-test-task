@@ -1,5 +1,5 @@
-import { Footer } from "../features/footer";
-import { Header } from "../features/header";
+import { Footer } from "../components/footer";
+import { Header } from "../components/header";
 import { TableOfContent } from "../features/table-of-content";
 
 import styles from "./index.module.css";
