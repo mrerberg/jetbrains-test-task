@@ -4,13 +4,13 @@ import data200 from "./mocks/data-200.json" assert { type: "json" };
 import dataEmpty200 from "./mocks/data-empty-200.json" assert { type: "json" };
 
 test.describe("TableOfContent", () => {
-  test("should show skeleton while loading data", async ({ page }) => {
+  test("When data is loading, Then should show skeleton", async ({ page }) => {
     await page.goto("/");
 
     await expect(page.getByTestId("toc-list-skeleton")).toBeVisible();
   });
 
-  test("should show error if data request failed", async ({ page }) => {
+  test("When data request failed, Then should show error", async ({ page }) => {
     await page.route("/api/help/idea/2023.1/HelpTOC.json", async (route) => {
       await route.fulfill({
         status: 500,
@@ -28,7 +28,9 @@ test.describe("TableOfContent", () => {
     );
   });
 
-  test("should show empty list if no data exists", async ({ page }) => {
+  test("When request data is empty, Then should show empty list", async ({
+    page,
+  }) => {
     await page.route("/api/help/idea/2023.1/HelpTOC.json", async (route) => {
       await route.fulfill({
         status: 200,
@@ -43,7 +45,7 @@ test.describe("TableOfContent", () => {
     );
   });
 
-  test.describe("Data is loaded successfully", () => {
+  test.describe("Given: data is loaded successfully", () => {
     test.beforeEach(async ({ page }) => {
       await page.route("/api/help/idea/2023.1/HelpTOC.json", async (route) => {
         await route.fulfill({
@@ -55,17 +57,21 @@ test.describe("TableOfContent", () => {
       await page.goto("/");
     });
 
-    test("should show received data", async ({ page }) => {
+    test("should show received data in sequence order", async ({ page }) => {
       await expect(page.getByTestId("toc-category-0")).toHaveCount(3);
     });
 
-    test("should open category with sub pages by click", async ({ page }) => {
+    test("When category was clicked, Then should open category with sub pages", async ({
+      page,
+    }) => {
       await page.getByRole("link", { name: "Getting started" }).click();
       await page.waitForTimeout(2000);
       await expect(page).toHaveScreenshot();
     });
 
-    test("should open second level sub pages by click", async ({ page }) => {
+    test("When sub page of nested level is clicked, Then should open relevant sub pages list", async ({
+      page,
+    }) => {
       await page.getByRole("link", { name: "Getting started" }).click();
       await page.waitForTimeout(2000);
 
