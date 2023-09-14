@@ -45,6 +45,7 @@ export const TableOfContentItem: React.FC<Props> = ({
     if (open) {
       resetActiveSection();
     } else {
+      console.log("-->", { level, sectionId: id });
       setActiveSection({ level, sectionId: id });
     }
 
@@ -57,8 +58,15 @@ export const TableOfContentItem: React.FC<Props> = ({
   return (
     <div
       className={cn(styles.container, {
+        [styles.rootCategory]: level === 0,
         [styles.open]: open,
-        [styles.backlight]: isActiveBacklight(id, level, activeSection),
+        [styles.backlight]: isActiveBacklight(
+          id,
+          level,
+          activeSection,
+          subPages,
+          hasInnerPages
+        ),
       })}
       data-test-id={`toc-category-${level}`}
     >
@@ -75,7 +83,7 @@ export const TableOfContentItem: React.FC<Props> = ({
       </Content>
 
       <AnimateHeight duration={500} height={height}>
-        <div className={styles.innerList}>
+        <div>
           {keys.map((key) => {
             const item = subPages[key];
 

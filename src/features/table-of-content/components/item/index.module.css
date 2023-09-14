@@ -1,17 +1,17 @@
 .container {
-  /* padding: 8px 22px; */
+  --toc-item-open-background: #f4f4f4;
+  --toc-item-root-backlight-background: #e8e8e8;
+
+  background-color: transparent;
   transition: background-color 0.15s;
 
-  &.open {
-    background-color: #f4f4f4;
+  &.rootCategory {
+    &.open {
+      background-color: var(--toc-item-open-background);
+    }
   }
 
   &.backlight {
-    /* e8e8e8 */
-    background-color: #e8e8e8;
+    background-color: var(--toc-item-root-backlight-background);
   }
-}
-
-.innerList {
-  /* margin-left: 16px; */
 }

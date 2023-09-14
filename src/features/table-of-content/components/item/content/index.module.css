@@ -1,17 +1,22 @@
 .content {
+  --toc-item-content-background-active: rgba(107, 87, 255, 1);
+  --toc-item-content-background-hover: #f4f4f4;
+  --toc-item-content-inner-background-hover: #d1d1d2;
+  --toc-item-content-border-color: rgba(107, 87, 255, 1);
+
   display: flex;
   align-items: center;
-  /* width: 216px; */
   padding: 8px 22px;
 
   font-size: 13px;
   line-height: 20px;
+  color: inherit;
+  text-decoration: inherit;
 
   transition: background-color 0.15s;
 
   &:hover {
-    /* f4f4f4 */
-    background-color: #f4f4f4;
+    background-color: var(--toc-item-content-background-hover);
     cursor: pointer;
     box-shadow: none;
   }
@@ -21,28 +26,24 @@
   }
 
   &:focus {
-    box-shadow: inset 0px 0px 0 1px rgba(107, 87, 255, 1);
+    box-shadow: inset 0px 0px 0 1px var(--toc-item-content-border-color);
     outline: none;
   }
 
   &.inner {
     &:hover {
-      background-color: #d1d1d2;
+      background-color: var(--toc-item-content-inner-background-hover);
     }
   }
 
   &.active {
-    background-color: rgba(107, 87, 255, 1);
+    background-color: var(--toc-item-content-background-active);
     color: #fff;
 
     &:hover {
-      /* f4f4f4 */
-      background-color: rgba(107, 87, 255, 1);
+      background-color: var(--toc-item-content-background-active);
     }
   }
-
-  color: inherit;
-  text-decoration: inherit;
 }
 
 .icon {
