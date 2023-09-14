@@ -33,11 +33,8 @@ export const Content: React.FC<Props> = ({
 
     onClick?.(id);
 
-    // if (hasInnerPages) {
-    //   onClick?.(level);
-    // }
-
-    // TODO: visit href
+    // IMPLEMENT REDIRECT HERE
+    console.log(`Navigating to page ${url}`);
   };
 
   return (
