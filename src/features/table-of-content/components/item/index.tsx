@@ -45,7 +45,6 @@ export const TableOfContentItem: React.FC<Props> = ({
     if (open) {
       resetActiveSection();
     } else {
-      console.log("-->", { level, sectionId: id });
       setActiveSection({ level, sectionId: id });
     }
 
