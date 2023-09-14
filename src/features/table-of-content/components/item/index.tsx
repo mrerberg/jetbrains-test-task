@@ -9,6 +9,7 @@ import { DomainPage } from "../../../../types";
 import { isSectionActive } from "./utils/is-active-section";
 import { isActiveBacklight } from "./utils/is-active-backlight";
 import { useTOCContext } from "../../context/context";
+import { hasInnerPages } from "./utils/has-inner-pages";
 
 type Props = {
   id: string;
@@ -37,7 +38,7 @@ export const TableOfContentItem: React.FC<Props> = ({
     useTOCContext();
 
   const keys = Object.keys(subPages);
-  const hasInnerPages = keys.length > 0;
+  const withInnerPages = hasInnerPages(subPages);
 
   const handleClick = (id: string) => {
     onClick?.(level, id);
@@ -48,7 +49,7 @@ export const TableOfContentItem: React.FC<Props> = ({
       setActiveSection({ level, sectionId: id });
     }
 
-    if (hasInnerPages) {
+    if (withInnerPages) {
       setOpen((prevVisible) => !prevVisible);
       setHeight((prevHeight) => (prevHeight === "auto" ? 0 : "auto"));
     }
@@ -64,7 +65,7 @@ export const TableOfContentItem: React.FC<Props> = ({
           level,
           activeSection,
           subPages,
-          hasInnerPages
+          withInnerPages
         ),
       })}
       data-test-id={`toc-category-${level}`}
@@ -73,7 +74,7 @@ export const TableOfContentItem: React.FC<Props> = ({
         id={id}
         active={isSectionActive(id, level, activeSection)}
         url={url}
-        hasInnerPages={hasInnerPages}
+        hasInnerPages={withInnerPages}
         level={level}
         open={open}
         onClick={handleClick}
